@@ -10,7 +10,7 @@ q2 = 1e-6     # 1 µC (10^-6 C)
 distancias = np.linspace(0.10, 1.00, 91)
 energias = k * q1 * q2 / distancias
 
-# Conferência em r = 0,10 m
+# Conferência r = 0,10 m
 print(f"U(0,10 m) = {energias[0]:.6f} J")
 
 plt.figure(figsize=(6, 4))
